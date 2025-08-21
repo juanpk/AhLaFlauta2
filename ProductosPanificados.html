@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <title>Ah, la Flauta!</title>
+    <meta name= "description" content="Panadería Ah, La Flauta">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/MedialunaPag.png" />
+    <link href="css/estilosFinal.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="ContenedorPrincipal">
+
+        <div class="text-center tituloHeader colorNav">
+            <h1>Panadería</h1>
+            <p>Ah, la Flauta!</p>
+        </div>
+
+        <nav class="navbar navbar-expand-sm colorNav navbar-dark sticky-top ">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Ah, la Flauta!</a>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">NOSOTROS</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    PRODUCTOS
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="ProductosPanificados.html">Panificados</a>
+                        <a class="dropdown-item" href="ProductosMDulces.html">Masas Dulces</a>
+                        <a class="dropdown-item" href="ProductosMSaladas.html">Masas Saladas</a>
+                        <a class="dropdown-item" href="ProductosSaludables.html">Saludables</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Section: Productos Panificados -->
+        <section class="my-5 ">
+
+            <div class="container">
+
+                <div class="fondoTexto ">
+                    <div class="recuadro">
+                        <!-- Section heading -->
+                        <h2 class="h1-responsive font-weight-bold text-center infoProd ">Panificados</h2>
+                        <!-- Section description -->
+                        <p class="text-center dark-grey-text w-responsive mx-auto mb-5 detalleProd">Trabajamos día a día para ofrecer excelentes panificados, esforzándonos en lograr productos frescos y de calidad para que puedas disfrutar en cualquier momento.</p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="accordion">
+
+                    <div class="card" style="background-color: rgba(248, 240, 229, 0.7)">
+                        <div class="card-header">
+                            <a class="card-link infoProd" data-toggle="collapse" href="#collapseOne">
+                              Pan Flauta
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+
+                            <div class="row">
+
+                                <div class="col-lg-5 col-xl-4">
+                                    <!-- Producto imagen -->
+                                    <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                                        <img class="img-fluid" src="img/PanFlauta.jpg" alt="Pan Flauta">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 col-xl-8">
+
+                                    <!-- Producto descripción -->
+                                    <p class="dark-grey-text detalleProd">Nuestro producto favorito, dueño del nombre de nuestra panaderia. Clásico infaltable en la mesa, se caracteriza por tener una miga suave y aireada, con una corteza crocante y dorada en cada uno de sus 5 bollitos.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-color: rgba(248, 240, 229, 0.7)">
+                        <div class="card-header">
+                            <a class="collapsed card-link infoProd" data-toggle="collapse" href="#collapseTwo">
+                                Pan Migñon
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+
+                            <div class="row">
+
+                                <div class="col-lg-5 col-xl-4">
+                                    <!-- Producto imagen -->
+                                    <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                                        <img class="img-fluid" src="img/PanMigñon.jpg" alt="Pan Migñon">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 col-xl-8">
+
+                                    <!-- Producto descripción -->
+                                    <p class="dark-grey-text detalleProd">Pan que se destaca por sus 11 bollitos con la miga y corteza perfecta para acompañar las comidas o bien consumirlo con fiambres.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-color: rgba(248, 240, 229, 0.7)">
+                        <div class="card-header">
+                            <a class="collapsed card-link infoProd" data-toggle="collapse" href="#collapseThree">
+                                Pan de Molde
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+
+                            <div class="row">
+
+                                <div class="col-lg-5 col-xl-4">
+                                    <!-- Producto imagen -->
+                                    <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                                        <img class="img-fluid" src="img/PanMolde.jpg" alt="Pan de Molde">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 col-xl-8">
+
+                                    <!-- Producto descripción -->
+                                    <p class="dark-grey-text detalleProd">En sus dos versiones, con o sin semillas, este tipo de pan posee una textura muy blanda, con una presentación en rebanadas ideal para que sea usado en sándwich o como tostada para acompañar un buen desayuno o merienda.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-color: rgba(248, 240, 229, 0.7)">
+                        <div class="card-header">
+                            <a class="collapsed card-link infoProd" data-toggle="collapse" href="#collapseFour">
+                                Pan de Viena
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-parent="#accordion">
+
+                            <div class="row">
+
+                                <div class="col-lg-5 col-xl-4">
+                                    <!-- Producto imagen -->
+                                    <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                                        <img class="img-fluid" src="img/PanViena.jpg" alt="Pan de Viena">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 col-xl-8">
+
+                                    <!-- Producto descripción -->
+                                    <p class="dark-grey-text detalleProd">Es un pan ligero, esponjoso. Gracias a una cocción cuidadosa se logra una miga suave, con una corteza de textura muy fina, ligeramente crujiente. Es fabricado con la forma y tamaño necesarios para sus diferentes usos: pan para panchos, lomos, hamburguesas.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Section: Productos Panificados -->
+
+        <!-- INICIO Footer -->
+        <footer class="colorFooter">
+            <div class="row">
+                <!-- NUESTRAS REDES -->
+                <div class="col-md-2 my-md-2 text-center">
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Nuestras Redes</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- #Acceso a Facebook -->
+                            <a href="https://es-la.facebook.com/" target= "_blank" title= "Acceso Facebook Ah, la Flauta!">
+                                <img src="img/IconoFace.png" alt="Botón Facebook" height="35px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <!-- #Acceso a Instagram -->
+                            <a href="https://www.instagram.com/?hl=es" target= "_blank" title= "Acceso Instagram Ah, la Flauta!">
+                                <img src="img/IconoInstagram.png" alt="Botón Instagram" height="35px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <!-- #Acceso a GMAIL -->
+                            <a href="mailto:ahlaflautapanaderia@gmail.com" title= "Enviar mail a Ah, la Flauta! ">
+                                <img src="img/IconoGmail.png" alt="Botón Gmail" height="35px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- NUESTRAS REDES -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- UBICACION -->
+                <div class="col-md-5 my-md-2 text-center">
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Ubicación</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>Dirección: Av. Belgrano y Matheus</p>
+                                    <p>Localidad: Villa Regina - Rio Negro (Arg)</p>
+                                </li>
+                                <li>
+                                    <p>Teléfono: +54 (9) 0298-4451120</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- UBICACION -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- HORARIOS ATENCION -->
+                <div class="col-md-3 my-md-2 text-center">
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Horarios de atención</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>Lun. a Sab. 07:30 a 13:00 hs.</p>
+                                </li>
+                                <li>
+                                    <p>Lun. a Sab. 17:00 a 21:00 hs. </p>
+                                </li>
+                                <li>
+                                    <p>Dom. 07:30 a 13:00 hs.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <!-- HORARIOS ATENCION -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- MAPA -->
+                <div class="col-md-2 my-md-2 text-center">
+                    <!-- Social buttons -->
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Mapa</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Google Maps-->
+                            <a href="https://drive.google.com/open?id=1fXddi0DRAcgynnlrWUG8lpSxI-6f9U6v&usp=sharing" target= "_blank" title= "Ah, la Flauta! en GoogleMaps" >
+                                <img src="img/IconoMaps.png" alt="Botón GoogleMaps" height="100px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MAPA -->
+            </div>
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col-md-12 mb-1 footer-copyright text-center py-3"> 
+                    © COPYRIGHT 2019 - Panadería Ah, la Flauta! - "Distinción en Calidad" Creado por: Los Tres Mosqueteros
+                </div>       
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- FIN Footer -->
+    </div>
+
+</body>
+
+</html>

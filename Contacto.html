@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <title>Ah, la Flauta!</title>
+    <meta name= "description" content="Panadería Ah, La Flauta">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/MedialunaPag.png" />
+    <link href="css/estilosFinal.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="ContenedorPrincipal">
+
+        <div class="text-center tituloHeader colorNav">
+              <h1>Panadería</h1>
+              <p>Ah, la Flauta!</p> 
+        </div>
+
+        <nav class="navbar navbar-expand-sm colorNav navbar-dark sticky-top ">
+          <!-- Brand -->
+          <a class="navbar-brand" href="index.html">Ah, la Flauta!</a>
+
+           <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">NOSOTROS</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                PRODUCTOS
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="ProductosPanificados.html">Panificados</a>
+                <a class="dropdown-item" href="ProductosMDulces.html">Masas Dulces</a>
+                <a class="dropdown-item" href="ProductosMSaladas.html">Masas Saladas</a>
+                <a class="dropdown-item" href="ProductosSaludables.html">Saludables</a>
+              </div>
+            </li>
+
+              <li class="nav-item">
+              <a class="nav-link" href="Contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="my-5 FormContacto">
+            <div class="container">
+            <!-- Section: Contact v.1 -->
+                <!-- Section heading -->
+                <h2 class="text-center">
+                    Realizá tu pedido aquí
+                </h2>
+                <!-- Section description -->
+                <p class="text-center dark-grey-text w-responsive mx-auto mb-5 detalleForm">
+                    Completá el formulario y realizá tu consulta o pedido, tambien podes ingresar lo que pensás de nuestra empresa.
+                </p>
+
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-lg-5 mb-lg-0 mb-4">
+                        <!-- Form with header -->
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Header -->
+                                <div class="FormContacto">
+                                    <h2 class="mb-1"><i class="fas fa-envelope"></i> 
+                                        Contactanos:
+                                    </h2>
+                                </div>
+                                <p class="text-center dark-grey-text w-responsive mx-auto detalleForm">
+                                    Tus comentarios y sugerencias son muy importantes para nosotros.
+                                </p>
+
+                                <!-- Body -->
+                                <div class="form-group">
+                                    <input title= "Nombre" type="text" class="form-control" placeholder= "Nombre y Apellido (*)">
+                                </div>
+                                <div class="form-group">
+                                    <input title= "Email" type="text" class="form-control" placeholder= "Email (*)">
+                                </div>
+                                <div class="form-group">
+                                    <input title= "Asunto" type="text" class="form-control" placeholder= "Asunto (*)">
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class= "form-control" title="Mensaje" cols="40" rows="5" aria-required="true" aria-invalid="false" placeholder="Mensaje (*)"></textarea>
+                                </div>
+
+                                <div class="text-center">
+                                    <button title= "btnEnviar" type="button" class="btn btn-outline-secondary">Enviar Mensaje</button>
+                                </div>
+                        </div>
+                      </div>
+                      <!-- Form with header -->
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-7 mb-lg-0 mb-8">
+
+                        <!--Google map-->
+                        <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+                            <iframe title= "Google Maps" src="https://www.google.com/maps/d/embed?mid=1fXddi0DRAcgynnlrWUG8lpSxI-6f9U6v&hl=es" frameborder="0"
+                            style="border:0; height: 100%; width: 100%" allowfullscreen ></iframe>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            <!-- Section: Contact v.1 -->
+            </div>
+        </section>
+        
+         <!-- INICIO Footer -->
+        <footer class="colorFooter">
+            <div class="row">
+                <!-- NUESTRAS REDES -->
+                <div class="col-md-2 my-md-2 text-center">
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Nuestras Redes</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- #Acceso a Facebook -->
+                            <a href="https://es-la.facebook.com/" target= "_blank" title= "Acceso Facebook Ah, la Flauta!">
+                                <img src="img/IconoFace.png" alt="Botón Facebook" height="35px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <!-- #Acceso a Instagram -->
+                            <a href="https://www.instagram.com/?hl=es" target= "_blank" title= "Acceso Instagram Ah, la Flauta!">
+                                <img src="img/IconoInstagram.png" alt="Botón Instagram" height="35px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <!-- #Acceso a GMAIL -->
+                            <a href="mailto:ahlaflautapanaderia@gmail.com" title= "Enviar mail a Ah, la Flauta! ">
+                                <img src="img/IconoGmail.png" alt="Botón Gmail" height="35px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- NUESTRAS REDES -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- UBICACION -->
+                <div class="col-md-5 my-md-2 text-center">
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Ubicación</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>Dirección: Av. Belgrano y Matheus</p>
+                                    <p>Localidad: Villa Regina - Rio Negro (Arg)</p>
+                                </li>
+                                <li>
+                                    <p>Teléfono: +54 (9) 0298-4451120</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- UBICACION -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- HORARIOS ATENCION -->
+                <div class="col-md-3 my-md-2 text-center">
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Horarios de atención</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>Lun. a Sab. 07:30 a 13:00 hs.</p>
+                                </li>
+                                <li>
+                                    <p>Lun. a Sab. 17:00 a 21:00 hs. </p>
+                                </li>
+                                <li>
+                                    <p>Dom. 07:30 a 13:00 hs.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <!-- HORARIOS ATENCION -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- MAPA -->
+                <div class="col-md-2 my-md-2 text-center">
+                    <!-- Social buttons -->
+                    <h1 class="font-weight-bold text-uppercase encabFooter">Mapa</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Google Maps-->
+                            <a href="https://drive.google.com/open?id=1fXddi0DRAcgynnlrWUG8lpSxI-6f9U6v&usp=sharing" target= "_blank" title= "Ah, la Flauta! en GoogleMaps" >
+                                <img src="img/IconoMaps.png" alt="Botón GoogleMaps" height="100px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MAPA -->
+            </div>
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col-md-12 mb-1 footer-copyright text-center py-3"> 
+                    © COPYRIGHT 2019 - Panadería Ah, la Flauta! - "Distinción en Calidad" Creado por: Los Tres Mosqueteros
+                </div>       
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- FIN Footer -->
+    </div>
+</body>
+
+</html>       

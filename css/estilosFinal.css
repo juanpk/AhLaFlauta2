@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Cabecera;
+    src: url("/font/LetraCabecera.ttf");
+}
+
+@font-face {
+    font-family: LetraInterna;
+    src: url("/font/LetraInterna.otf");
+}
+
+
+#ContenedorPrincipal {
+    background-image: url("/img/FondoPag.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: Cabecera;
+    float: left;
+    color: #e6a756 !important;
+}
+
+.nav-link {
+    font-family: LetraInterna;
+}
+
+.TituloNosotros {
+    text-align: center;
+    font-family: LetraInterna;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.infoProd {
+    font-family: Cabecera;
+    Color: rgb(67, 43, 34);
+    font-size: 30px;
+}
+
+.detalleProd {
+    margin: 0px;
+    font-family: LetraInterna;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.colorFooter {
+    background-color: rgba(230, 167, 86, 0.9);
+}
+
+.colorNav {
+    background-color: rgba(47, 23, 15, 0.9);
+}
+
+.tituloHeader h1 {
+    font-family: LetraInterna;
+    color: floralwhite;
+}
+
+.tituloHeader p {
+    color: #e6a756;
+    font-family: Cabecera;
+    font-size: 70px;
+}
+
+.fondoTexto {
+    padding: 5px;
+    background-color: rgba(248, 240, 229, 0.7);
+    border-radius: 0.70rem !important;
+    border-color: rgba(248, 240, 229, 0.9);
+}
+
+.recuadro {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border: 5px rgba(47, 23, 15, 0.9) solid;
+    border-radius: 0.70rem !important;
+}
+
+.FormContacto {
+    background:rgba(252,250,246, 0.5);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.FormContacto h2 {
+    font-family: Cabecera;
+    text-align: center;
+    Color: rgb(67, 43, 34);
+}
+
+.detalleForm {
+    margin: 0px;
+    font-family: LetraInterna;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.encabFooter {
+    font-size: 20px;
+}
